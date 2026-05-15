@@ -1,2 +1,52 @@
-# guzheng
-Chinese zither family design and build documents
+# Guzheng Reference-Member-First Family Packet
+
+Generated: 2026-05-10
+
+Readiness: `L2 prototype scaffold`. This packet is not build-ready until the
+reference member has measured dimensions, reviewed drawings, and passed the
+validation gates in `validation.csv`.
+
+## Quick Start
+
+1. Read `design.md` before drafting CAD or cutting stock.
+2. Treat `GUZ-REF-21` as the only first build.
+3. Complete the reference-member gates in `validation.csv`.
+4. Only after the reference member passes, revise compact and bass rows in
+   `family-spec.csv`.
+5. Use DXF/CAD/reviewed drawings as fabrication authority. Generated images
+   are concept-only communication aids.
+
+## File Map
+
+| File | Purpose |
+| --- | --- |
+| `design.md` | Packet intent, family split, authority rules, and reference gate. |
+| `family-spec.csv` | Compact, reference, and bass family rows with inheritance blocked by default. |
+| `validation.csv` | Pass/fail gates for crown, creep, bridge corridor, load, string schedule, and visual authority. |
+| `bom.csv` | Measurement-first materials and tooling scaffold. |
+| `sourcing.csv` | Make/buy/borrow sourcing scaffold with measurement dependencies. |
+| `cut-list.csv` | Measurement placeholders for the reference member only. |
+| `drawing-brief.md` | DXF-first drawing plan and required layers. |
+| `assembly-manual.md` | Hold-point sequence for reference-member setup. |
+| `supplier-rfq.md` | RFQ scaffold that waits for reviewed drawings and string data. |
+| `visual-bom-brief.md` | Visual BOM layout and concept-only caption policy. |
+| `visual-output-plan.md` | Concept-image guidance without fabrication authority. |
+| `visual-output-register.csv` | Visual authority register for the packet. |
+| `risks.md` | Load, crown, bridge-corridor, visual-authority, and review risks. |
+| `wolfram-starter.wl` | Notebook scaffold for load, crown, and gate readiness checks. |
+| `sources.md` | Provenance and missing-source notes. |
+| `capstone-manifest.json` | Packet metadata and required file list for path checks. |
+
+## First Build Recommendation
+
+Build `GUZ-REF-21` first as the reference member. Compact and bass variants are
+family targets only; they inherit no bridge spacing, crown, bracing, string
+load, or panel thickness until the reference member has measured evidence.
+
+## Safety And Fabrication Gates
+
+- Do not tension strings until the load-spread path is reviewed.
+- Do not scale the soundboard crown from concept art.
+- Do not use compact or bass member rows for fabrication until their
+  `allowed_to_build` value changes from `no_reference_gate_pending`.
+- Keep generated visual work outside the fabrication authority chain.

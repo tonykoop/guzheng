@@ -1,0 +1,8 @@
+item,make_buy_borrow,required_spec,search_terms,status,notes
+reference soundboard blank,buy,"straight-grained stable board stock; species and thickness TBD after design review","quartersawn tonewood soundboard blank guzheng zither",requires_measurement,"do not order final thickness before crown and load model"
+rim and end-block stock,buy,"stable hardwood or engineered stock sized from reviewed DXF","hardwood zither rim end block stock",requires_review,"load path review required before purchase"
+bridge template material,make,"template stock stable enough for repeatable bridge-foot and corridor checks","acrylic plywood bridge template material",ready_to_source,"template only; not final bridge material"
+strings,buy,"gauges and tuning plan TBD; tension data required","guzheng string set replacement individual gauges",requires_measurement,"record individual and aggregate tension before stringing"
+crown measurement fixture,make,"straightedge or dial indicator fixture with repeatable datum points","dial indicator straightedge deflection gauge",ready_to_source,"required before staged tension"
+humidity temperature logger,buy,"logs temperature and relative humidity during crown and creep checks","digital humidity temperature data logger",ready_to_source,"record with validation logs"
+DXF/CAD review,make,"reviewed drawings for reference member before cutting","CAD DXF review checklist",required_before_cut,"fabrication authority starts here"

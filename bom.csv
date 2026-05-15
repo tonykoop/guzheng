@@ -1,0 +1,8 @@
+item,qty,role,required_spec,status,authority
+reference soundboard blank,1,reference test article,"species, grain, moisture, thickness map TBD; must be measured before cutting",measurement_required,reviewed DXF/CAD plus material record
+reference rim and end-block stock,1 set,load path,"material and joinery TBD; must be reviewed against aggregate string load",measurement_required,reviewed DXF/CAD plus load review
+bridge template blanks,full set,bridge corridor validation,"physical templates for bridge travel and foot contact",required_before_tension,measured templates
+string set,1 set,string schedule validation,"gauges and tuning plan TBD; record expected individual and aggregate tension",measurement_required,string schedule table
+crown gauge or straightedge setup,1,validation tooling,"repeatable crown and deflection measurement fixture",required_before_tension,measurement log
+humidity and temperature logger,1,validation tooling,"log environment during crown and creep checks",required_before_tension,measurement log
+concept visual assets,optional,communication,"must be labeled concept-only and excluded from fabrication authority",optional,visual-output-register.csv

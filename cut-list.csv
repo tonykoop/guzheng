@@ -1,0 +1,8 @@
+part_id,member_id,part,rough_dimensions,final_dimensions,status,authority
+GUZ-REF-SOUNDBOARD,GUZ-REF-21,soundboard,TBD,TBD,blocked_until_reviewed_dxf,reviewed DXF/CAD
+GUZ-REF-BACK,GUZ-REF-21,back panel,TBD,TBD,blocked_until_reviewed_dxf,reviewed DXF/CAD
+GUZ-REF-RIM,GUZ-REF-21,rim set,TBD,TBD,blocked_until_load_review,reviewed DXF/CAD
+GUZ-REF-END-BLOCKS,GUZ-REF-21,end blocks,TBD,TBD,blocked_until_load_review,reviewed DXF/CAD
+GUZ-REF-BRACING,GUZ-REF-21,bracing,TBD,TBD,blocked_until_crown_plan,reviewed DXF/CAD
+GUZ-CMP-ALL,GUZ-CMP-16,compact family stock,TBD,TBD,blocked_by_reference_gate,do not cut
+GUZ-BAS-ALL,GUZ-BAS-21,bass family stock,TBD,TBD,blocked_by_reference_gate,do not cut

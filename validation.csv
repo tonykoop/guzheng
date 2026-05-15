@@ -1,0 +1,11 @@
+gate_id,member_id,phase,check,pass_condition,evidence_required,blocks_family_scaling,result
+GZ-REF-DXF-AUTHORITY,GUZ-REF-21,pre-cut,DXF or CAD fabrication authority,"reviewed drawing names datums, outline, bridge corridor, crown datum, bracing, end blocks, string path","DXF/CAD filename plus reviewer/date",yes,pending
+GZ-REF-STRING-SCHEDULE,GUZ-REF-21,pre-tension,string schedule and load estimate,"string count, gauges, tuning plan, individual tension estimates, and aggregate load recorded","string schedule table or workbook export",yes,pending
+GZ-REF-LOAD,GUZ-REF-21,pre-tension,load path review,"end blocks, pins, rim, soundboard, and bracing reviewed against aggregate tension before stringing","review note with expected load path and hold points",yes,pending
+GZ-REF-CROWN,GUZ-REF-21,pre/post tension,soundboard crown retention,"crown measured before stringing and at staged tension; final crown remains inside chosen tolerance","crown gauge readings with dates and humidity",yes,pending
+GZ-REF-CREEP,GUZ-REF-21,post-tension,creep under sustained tension,"deflection readings logged at 1h, 24h, 7d, and 30d; no unsafe drift","creep log with temperature and humidity",yes,pending
+GZ-REF-BRIDGE-CORRIDOR,GUZ-REF-21,setup,bridge travel corridor,"physical bridge templates travel without edge interference and keep playable spacing","template photos or drawing overlays plus measured clearances",yes,pending
+GZ-REF-BRIDGE-FOOT,GUZ-REF-21,setup,bridge foot contact,"bridge feet seat cleanly on crowned surface without rocking under staged tension","bridge template contact notes",yes,pending
+GZ-REF-VISUAL-AUTHORITY,GUZ-REF-21,documentation,visual authority separation,"generated images are marked concept-only and no generated image is listed as fabrication authority","visual-output-register.csv",yes,pending
+GZ-CMP-INHERITANCE,GUZ-CMP-16,promotion,compact inheritance check,"compact row updated only after all reference blocking gates pass","completed reference validation table",yes,pending
+GZ-BAS-INHERITANCE,GUZ-BAS-21,promotion,bass inheritance check,"bass row updated only after all reference blocking gates pass with explicit load margin","completed reference validation table and load margin note",yes,pending

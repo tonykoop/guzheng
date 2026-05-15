@@ -1,0 +1,45 @@
+{
+  "packet_dir": "docs/build-packets/guzheng-reference-family",
+  "title": "Guzheng Reference-Member-First Family Packet",
+  "generated": "2026-05-10",
+  "readiness": "L2 prototype scaffold",
+  "issue": "tonykoop/instrument-maker#152",
+  "fabrication_authority": {
+    "current_status": "blocked until reviewed DXF/CAD or measured templates exist",
+    "generated_images_allowed_as_authority": false,
+    "reference_member_first": true
+  },
+  "family_members": [
+    "GUZ-CMP-16",
+    "GUZ-REF-21",
+    "GUZ-BAS-21"
+  ],
+  "blocking_reference_gates": [
+    "GZ-REF-CROWN",
+    "GZ-REF-CREEP",
+    "GZ-REF-BRIDGE-CORRIDOR",
+    "GZ-REF-LOAD",
+    "GZ-REF-STRING-SCHEDULE",
+    "GZ-REF-DXF-AUTHORITY",
+    "GZ-REF-VISUAL-AUTHORITY"
+  ],
+  "files_included": [
+    "README.md",
+    "design.md",
+    "family-spec.csv",
+    "validation.csv",
+    "bom.csv",
+    "sourcing.csv",
+    "cut-list.csv",
+    "drawing-brief.md",
+    "assembly-manual.md",
+    "supplier-rfq.md",
+    "visual-bom-brief.md",
+    "visual-output-plan.md",
+    "visual-output-register.csv",
+    "risks.md",
+    "wolfram-starter.wl",
+    "sources.md",
+    "capstone-manifest.json"
+  ]
+}
