@@ -1,0 +1,6 @@
+source_id,item_id,search_target,vendor_or_source,status,checked_date,claim_limit,notes
+SRC-001,BOM-001,soundboard-grade top wood,TBD,unverified,not-checked,no price or availability claim,Select only after target dimensions and stiffness goals are known.
+SRC-002,BOM-004,bridge stock or reference bridge sample,TBD,unverified,not-checked,no price or availability claim,Prefer measured sample before custom bridge geometry.
+SRC-003,BOM-005,guzheng string set by course,TBD,unverified,not-checked,no price or availability claim,Need course-specific gauge material and pitch data.
+SRC-004,BOM-006,tuning pins anchors or compatible hardware,TBD,unverified,not-checked,no price or availability claim,Load capacity and spacing are design-table dependent.
+SRC-005,BOM-008,calipers depth gauge pitch tuner humidity logger,TBD,planned,not-checked,no price or availability claim,Use available shop tools first if calibration is adequate.

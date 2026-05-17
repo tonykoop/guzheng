@@ -1,0 +1,9 @@
+item_id,component,qty,status,source_status,measurement_status,notes
+BOM-001,soundboard/top blank,TBD,planned,unverified,measurement-required,Material species thickness grain and crown not selected.
+BOM-002,back/bottom board,TBD,planned,unverified,measurement-required,Depends on body architecture and bracing decision.
+BOM-003,side rails/end blocks,TBD,planned,unverified,measurement-required,Geometry must follow measured body envelope.
+BOM-004,movable bridge blanks,21 assumption,planned,unverified,measurement-required,Bridge height foot area contact material and saddle radius must be measured or prototyped.
+BOM-005,string set,21 assumption,planned,unverified,measurement-required,Do not claim final gauges or supplier until course map is measured.
+BOM-006,anchor pins/tuning hardware,TBD,planned,unverified,measurement-required,Anchor spacing and load rating depend on final string map.
+BOM-007,finish system,TBD,planned,unverified,measurement-required,Must be compatible with soundboard response and bridge-foot contact.
+BOM-008,measurement tools,TBD,planned,owned-or-borrow,needed,Pitch tuner calipers depth gauge scale and humidity/temperature logging are required for L2.

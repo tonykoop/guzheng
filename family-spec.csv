@@ -1,0 +1,17 @@
+field,value,unit,status,provenance,notes
+instrument_family,long-board movable-bridge zither,,starter,repo issue #1,Guzheng-family packet scaffold.
+readiness_level,L1 starter,,starter,repo issue #1,Not a shop packet or build-ready release.
+course_count,21,count,assumption,common modern guzheng reference; verify against target,Keep configurable for 16/18/21/25-course variants.
+course_count_verification,measurement-required,,open,target instrument required,Measure actual course count before CAD/DXF layout.
+bass_speaking_length_range,1100-1500,mm,planning-band,starter estimate requiring measured reference,Non-authority coarse range for lower courses only.
+mid_speaking_length_range,800-1250,mm,planning-band,starter estimate requiring measured reference,Non-authority coarse range for middle courses only.
+treble_speaking_length_range,500-950,mm,planning-band,starter estimate requiring measured reference,Non-authority coarse range for upper courses only.
+bridge_role,movable bridge sets speaking length and transfers downforce,,starter,family behavior,Bridge position is tuning and structural data.
+bridge_layout_authority,future CAD/DXF plus measured design table,,open,instrument-maker drawing authority rule,No generated image or sketch controls bridge positions.
+soundboard_top_constraints,thickness crown grain bracing humidity deflection,,measurement-required,target instrument required,Top behavior must be measured before L2.
+tuning_plan,pentatonic base tuning with movable-bridge adjustment,,starter,family behavior; verify target tuning,Record actual pitch map before tension calculations.
+string_material_plan,steel core or wound course data to be verified,,measurement-required,target string set required,Do not order final gauges from this row.
+string_tension_basis,Mersenne string relation using measured unit mass length and pitch,,starter,notebooks/guzheng-string-bridge-stiffness-study.wl,Requires real strings and lengths for useful values.
+cad_dimension_basis,measurement-required,,open,cad-dxf-authority-plan.md,DXF remains future authority until measured data exists.
+visual_authority_policy,generated images are concept-only if added,,starter,instrument-maker drawing authority rule,DXF CAD design tables or measured templates control dimensions.
+prototype_gate,bridge and tension coupon before full body layout,,starter,validation-loop.csv,Use course samples and deflection checks before committing body geometry.
