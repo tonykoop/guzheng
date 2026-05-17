@@ -1,6 +1,7 @@
-artifact_id,artifact_path,type,member_id,fabrication_authority,allowed_use,notes
-GUZ-REF-DXF-01,drawings/GUZ-REF-21-01-body-outline.dxf,DXF,GUZ-REF-21,yes,cut authority after review,"create before cutting; not included yet"
-GUZ-REF-DXF-02,drawings/GUZ-REF-21-02-crown-and-bracing.dxf,DXF,GUZ-REF-21,yes,crown and bracing authority after review,"create before cutting; not included yet"
-GUZ-REF-DXF-03,drawings/GUZ-REF-21-03-string-path.dxf,DXF,GUZ-REF-21,yes,string path authority after review,"create before tensioning; not included yet"
-GUZ-REF-BOM-CONCEPT,visuals/guzheng-reference-visual-bom.png,generated image,GUZ-REF-21,no,concept visual BOM only,"must carry concept-only caption"
-GUZ-FAMILY-CONCEPT,visuals/guzheng-family-overview.png,generated image,GUZ-FAMILY,no,concept family overview only,"compact and bass remain blocked"
+artifact_id,artifact_path,type,member_id,authority,allowed_use,controlling_authority,notes
+GUZ-REF-CAD-SCAFFOLD,cad/guzheng-reference-family.scad,OpenSCAD,GUZ-REF-21,pending_measurement,parameter scaffold only,family-spec.csv plus measured reference data,"render gate remains closed"
+GUZ-REF-DXF-01,drawings/GUZ-REF-21-01-body-outline.dxf,DXF,GUZ-REF-21,pending_measurement,cut authority after review,cad/guzheng-reference-family.scad or reviewed drawing,"create before cutting; not included yet"
+GUZ-REF-DXF-02,drawings/GUZ-REF-21-02-crown-and-bracing.dxf,DXF,GUZ-REF-21,pending_measurement,crown and bracing authority after review,cad/guzheng-reference-family.scad or reviewed drawing,"create before cutting; not included yet"
+GUZ-REF-DXF-03,drawings/GUZ-REF-21-03-string-path.dxf,DXF,GUZ-REF-21,pending_measurement,string path authority after review,cad/guzheng-reference-family.scad or reviewed drawing,"create before tensioning; not included yet"
+GUZ-REF-BOM-CONCEPT,visuals/guzheng-reference-visual-bom.png,generated image,GUZ-REF-21,concept_only,concept visual BOM only,none,"must carry non-dimensional concept-only caption"
+GUZ-FAMILY-CONCEPT,visuals/guzheng-family-overview.png,generated image,GUZ-FAMILY,concept_only,concept family overview only,none,"compact and bass remain blocked"

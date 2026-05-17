@@ -2,7 +2,7 @@
   "packet_dir": "docs/build-packets/guzheng-reference-family",
   "title": "Guzheng Reference-Member-First Family Packet",
   "generated": "2026-05-10",
-  "readiness": "L2 prototype scaffold",
+  "readiness": "L2 V5 build-packet candidate",
   "issue": "tonykoop/instrument-maker#152",
   "fabrication_authority": {
     "current_status": "blocked until reviewed DXF/CAD or measured templates exist",
@@ -21,7 +21,8 @@
     "GZ-REF-LOAD",
     "GZ-REF-STRING-SCHEDULE",
     "GZ-REF-DXF-AUTHORITY",
-    "GZ-REF-VISUAL-AUTHORITY"
+    "GZ-REF-VISUAL-AUTHORITY",
+    "GZ-REF-BRIDGE-STIFFNESS"
   ],
   "files_included": [
     "README.md",
@@ -31,6 +32,8 @@
     "bom.csv",
     "sourcing.csv",
     "cut-list.csv",
+    "cad/guzheng-reference-family.scad",
+    "cad/mcp-session-log.md",
     "drawing-brief.md",
     "assembly-manual.md",
     "supplier-rfq.md",
