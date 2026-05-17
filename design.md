@@ -10,7 +10,7 @@ evidence exists.
 
 ## Readiness
 
-Readiness: `L2 prototype scaffold`.
+Readiness: `L2 V5 build-packet candidate`.
 
 This packet records the validation path and file contracts. It does not claim
 build-ready dimensions for the body, bridge corridor, soundboard crown,
@@ -69,6 +69,8 @@ when all blocking rows in `validation.csv` pass:
 - `GZ-REF-DXF-AUTHORITY`: drawing package reviewed before cutting.
 - `GZ-REF-VISUAL-AUTHORITY`: generated images excluded from fabrication
   authority.
+- `GZ-REF-BRIDGE-STIFFNESS`: bridge-foot downforce and local top stiffness
+  measured or modeled from reviewed values before the first full-tension setup.
 
 ## Manufacturing Scaffold
 
@@ -76,11 +78,23 @@ The packet expects a DXF-first workflow:
 
 1. Draft the reference body outline, bridge corridor, datum line, end blocks,
    bracing, and string path as DXF/CAD.
-2. Mark measured reference dimensions in the drawing title block.
-3. Cut no compact or bass stock until the reference validation table is filled.
-4. Treat the first reference build as a measurement mule and tone-response test.
-5. Promote compact and bass rows only after the reference member documents
+2. Use `cad/guzheng-reference-family.scad` only as a gated parameter scaffold
+   until measured values or a reviewed design table provide body, bridge, and
+   string-path authority.
+3. Mark measured reference dimensions in the drawing title block.
+4. Cut no compact or bass stock until the reference validation table is filled.
+5. Treat the first reference build as a measurement mule and tone-response test.
+6. Promote compact and bass rows only after the reference member documents
    crown retention, creep, and safe load behavior.
+
+## Salvaged Wolfram Study Scope
+
+The prior starter branch's useful string-bridge-stiffness idea is retained as
+analysis scope in `wolfram-starter.wl`: course pitch, speaking length, string
+linear density, aggregate tension, bridge-foot downforce, and local top
+deflection all remain measurement-required before they can influence CAD. The
+Wolfram source is reviewable L2 evidence only unless it is actually executed
+and its runtime outputs are committed with matching provenance.
 
 ## Concept Image Policy
 

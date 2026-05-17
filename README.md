@@ -2,9 +2,11 @@
 
 Generated: 2026-05-10
 
-Readiness: `L2 prototype scaffold`. This packet is not build-ready until the
-reference member has measured dimensions, reviewed drawings, and passed the
-validation gates in `validation.csv`.
+Status: L2 V5 build-packet candidate
+
+Readiness: `L2 V5 build-packet candidate`. This packet is not build-ready
+until the reference member has measured dimensions, reviewed CAD/DXF or design
+tables, and passed the validation gates in `validation.csv`.
 
 ## Quick Start
 
@@ -26,6 +28,8 @@ validation gates in `validation.csv`.
 | `bom.csv` | Measurement-first materials and tooling scaffold. |
 | `sourcing.csv` | Make/buy/borrow sourcing scaffold with measurement dependencies. |
 | `cut-list.csv` | Measurement placeholders for the reference member only. |
+| `cad/guzheng-reference-family.scad` | Non-rendering OpenSCAD gate scaffold; not fabrication authority until measured parameters are supplied and reviewed. |
+| `cad/mcp-session-log.md` | V5 provenance log for CAD/tool/Wolfram artifacts. |
 | `drawing-brief.md` | DXF-first drawing plan and required layers. |
 | `assembly-manual.md` | Hold-point sequence for reference-member setup. |
 | `supplier-rfq.md` | RFQ scaffold that waits for reviewed drawings and string data. |
@@ -47,6 +51,8 @@ load, or panel thickness until the reference member has measured evidence.
 
 - Do not tension strings until the load-spread path is reviewed.
 - Do not scale the soundboard crown from concept art.
+- Do not render or cut from `cad/guzheng-reference-family.scad` until the
+  measurement gate is deliberately opened with reviewed parameter authority.
 - Do not use compact or bass member rows for fabrication until their
   `allowed_to_build` value changes from `no_reference_gate_pending`.
 - Keep generated visual work outside the fabrication authority chain.
