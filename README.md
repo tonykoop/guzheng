@@ -18,6 +18,11 @@ tables, and passed the validation gates in `validation.csv`.
 5. Use DXF/CAD/reviewed drawings as fabrication authority. Generated images
    are concept-only communication aids.
 
+## Studio Explorer
+
+Open `explorer.html` for a studio-facing digest of the packet evidence,
+validation gates, OpenSCAD/Wolfram scaffolds, and current publish blockers.
+
 ## File Map
 
 | File | Purpose |

@@ -1,13 +1,38 @@
 {
   "packet_dir": "docs/build-packets/guzheng-reference-family",
   "title": "Guzheng Reference-Member-First Family Packet",
+  "instrument": "Guzheng",
+  "build_target": "GUZ-REF-21 reference member",
+  "artifact_focus": "zither / plucked chordophone reference-member-first packet",
   "generated": "2026-05-10",
+  "packet_version": "L2 V5 build-packet candidate",
+  "release_status": "private review / L2 candidate",
   "readiness": "L2 V5 build-packet candidate",
   "issue": "tonykoop/instrument-maker#152",
   "fabrication_authority": {
     "current_status": "blocked until reviewed DXF/CAD or measured templates exist",
     "generated_images_allowed_as_authority": false,
     "reference_member_first": true
+  },
+  "release_gate": {
+    "public_candidate": false,
+    "required_before_public": [
+      "Reviewed DXF/CAD or measured templates are required before cutting.",
+      "String schedule, aggregate load, and load path review are required before tensioning.",
+      "Crown, creep, bridge corridor, bridge-foot, and bridge stiffness gates remain pending.",
+      "Wolfram/OpenSCAD artifacts are source-only scaffolds until executed or reviewed with measured inputs."
+    ]
+  },
+  "engineering": {
+    "wolfram": [
+      {
+        "source_file": "wolfram-starter.wl",
+        "cloud_url": "",
+        "cloud_path": "wolfram-starter.wl",
+        "kind": "local-wl",
+        "permission": "local"
+      }
+    ]
   },
   "family_members": [
     "GUZ-CMP-16",
