@@ -23,6 +23,21 @@
 | `BRIDGE_CORRIDOR` | Allowed bridge travel, clearance, and foot-contact envelope. |
 | `NOTES` | Readiness and reviewer notes. |
 
+## Terminology Callouts
+
+Use `reference-notes/guzhengalive-terminology.md` as the label vocabulary for
+review drawings. At minimum, the reviewed DXF/CAD package should make these
+labels unambiguous:
+
+- Dragon/head end and Phoenix/tail end orientation.
+- Soundboard/faceboard versus backboard.
+- Fixed bridges/high mountains versus movable bridges/pillars.
+- Mountain pass/front bridge versus rear bridge.
+- Tuning box, tuning pins, peg board, string rests/nuts, and string guides.
+- Dragon pond, celestial pond, phoenix eyes, or other sound-hole labels only
+  when the reviewed reference layout actually includes those openings.
+- Frame, side boards, and sound beams/posts as load-path and support elements.
+
 ## Authority Rules
 
 - The reference member DXF/CAD package governs fabrication after review.

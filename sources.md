@@ -20,6 +20,24 @@ this packet carries forward the issue-level contract terms only: compact /
 reference / bass family split, reference-member-first validation, crown, creep,
 bridge-corridor, load-validation gates, and DXF-first visual authority.
 
+## Guzheng Alive Reference
+
+- Source: `Guzheng Parts Terminology`
+- URL: `https://guzhengalive.com/guzheng-terminology`
+- Local clipping: `/mnt/c/Users/Tony/Documents/Second_Brain/Clippings/Guzheng Parts Terminology 1.md`
+- Repo note: `reference-notes/guzhengalive-terminology.md`
+
+This source is useful for anatomy vocabulary and drawing labels: dragon/head,
+phoenix/tail, soundboard, fixed bridges/high mountains, mountain pass, rear
+bridge, movable bridges, tuning box, tuning pins, backboard, sound holes,
+dragon pond, celestial pond, phoenix eyes, frame, peg board, sound beams/posts,
+string rest, resonance chamber, and string guides.
+
+It is not dimensional evidence. Do not copy sound-hole shapes, bridge
+locations, string-guide holes, crown geometry, or frame dimensions from the
+web clipping or public page. Treat it as terminology/provenance support until
+measured templates or reviewed DXF/CAD evidence exists.
+
 ## Fabrication Authority
 
 No measured guzheng dimensions are asserted here. Fabrication authority begins
