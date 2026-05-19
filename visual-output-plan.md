@@ -26,6 +26,18 @@ Generated or speculative images must include this caption:
 
 `CONCEPT ONLY - fabrication authority is reviewed DXF/CAD or measured template.`
 
+## Register Status Rules
+
+- Planned DXF/CAD rows stay separate from concept-image rows in
+  `visual-output-register.csv`.
+- `planned_dxf_authority` rows describe missing review targets, not active cut
+  authority.
+- `concept_image_presentation` rows are communication deliverables only and must
+  keep `authority=concept_only`, `dimension_claim=none`, and the concept-only
+  caption.
+- Fabrication authority becomes active only after measured templates, reviewed
+  CAD/DXF, or reviewed design-table evidence exists.
+
 ## First Visual Set
 
 1. DXF screenshot of `GUZ-REF-21` body outline and bridge corridor.
