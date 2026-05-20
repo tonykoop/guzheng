@@ -35,6 +35,13 @@ Generated or speculative images must include this caption:
 - `concept_image_presentation` rows are communication deliverables only and must
   keep `authority=concept_only`, `dimension_claim=none`, and the concept-only
   caption.
+- `row_category` must distinguish `planned_dxf_authority`,
+  `planned_context_dxf`, and `concept_image_deliverable` so a file-existence
+  audit does not conflate missing future DXF authority with missing concept
+  image deliverables.
+- `path_required_now=no` means the path is a future target, not a current
+  deliverable. Only rows with `path_required_now=yes` should fail a current
+  path-existence audit when their `path` is missing.
 - Fabrication authority becomes active only after measured templates, reviewed
   CAD/DXF, or reviewed design-table evidence exists.
 
