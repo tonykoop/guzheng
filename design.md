@@ -90,7 +90,7 @@ The packet expects a DXF-first workflow:
 ## Salvaged Wolfram Study Scope
 
 The prior starter branch's useful string-bridge-stiffness idea is retained as
-analysis scope in `wolfram-starter.wl`: course pitch, speaking length, string
+analysis scope in `guzheng-starter.wl`: course pitch, speaking length, string
 linear density, aggregate tension, bridge-foot downforce, and local top
 deflection all remain measurement-required before they can influence CAD. The
 Wolfram source is reviewable L2 evidence only unless it is actually executed

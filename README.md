@@ -42,7 +42,7 @@ validation gates, OpenSCAD/Wolfram scaffolds, and current publish blockers.
 | `visual-output-plan.md` | Concept-image guidance without fabrication authority. |
 | `visual-output-register.csv` | Visual authority register with planned DXF rows split from concept-image presentation rows. |
 | `risks.md` | Load, crown, bridge-corridor, visual-authority, and review risks. |
-| `wolfram-starter.wl` | Notebook scaffold for load, crown, and gate readiness checks. |
+| `guzheng-starter.wl` | Notebook scaffold for load, crown, and gate readiness checks. |
 | `sources.md` | Provenance and missing-source notes. |
 | `capstone-manifest.json` | Packet metadata and required file list for path checks. |
 
