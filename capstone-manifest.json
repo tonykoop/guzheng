@@ -26,9 +26,9 @@
   "engineering": {
     "wolfram": [
       {
-        "source_file": "wolfram-starter.wl",
+        "source_file": "guzheng-starter.wl",
         "cloud_url": "",
-        "cloud_path": "wolfram-starter.wl",
+        "cloud_path": "guzheng-starter.wl",
         "kind": "local-wl",
         "permission": "local"
       }
@@ -66,7 +66,7 @@
     "visual-output-plan.md",
     "visual-output-register.csv",
     "risks.md",
-    "wolfram-starter.wl",
+    "guzheng-starter.wl",
     "sources.md",
     "capstone-manifest.json"
   ]
