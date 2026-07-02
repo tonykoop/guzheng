@@ -1,0 +1,34 @@
+{
+  "product": "guzheng",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/guzheng-reference-family.scad",
+      "format": "openscad-source",
+      "sha256": "f6996f8ba88941b205718355387c06012377df68dd3b2a0346f42e4f5f95ae95",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Source-only measurement-gate scaffold (measurement_gate_open=false). Renders NO build geometry by design; STL export is intentionally empty. Kept as-is this pass. OpenSCAD parse/CSG export check pass (exit 0)."
+    },
+    {
+      "path": "family-spec.csv",
+      "format": "family-spec",
+      "sha256": "ae6af8f087e2672e30b7af7b49e6663b92b42faa820cd50a21b227f580e13166",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Compact/reference/bass family policy rows. Reference member GUZ-REF-21 is the only gated build; compact and bass are blocked until the reference gate passes. No build-ready dimensions."
+    },
+    {
+      "path": "guzheng-starter.wl",
+      "format": "wolfram-source",
+      "sha256": "9dcf92dfee7e73f9473732291bd723787283e5d1269f660c90fd44699c4fc74a",
+      "authority": "derived_preview",
+      "lossy": false,
+      "notes": "Load/crown/gate-readiness Wolfram source; not executed. L2 evidence."
+    }
+  ],
+  "notes": "The OpenSCAD master is a deliberate source-only gate scaffold with no build geometry; all dimensional authority (body envelope, bridge corridor, soundboard crown, bracing, string schedule, load model) is measurement-gated per family-spec.csv and validation.csv. No STEP/DXF export yet (planned DXF rows are placeholders in visual-output-register.csv). Gate A (Alpha workspace compile) not yet run."
+}
