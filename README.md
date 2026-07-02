@@ -45,6 +45,7 @@ validation gates, OpenSCAD/Wolfram scaffolds, and current publish blockers.
 | `guzheng-starter.wl` | Notebook scaffold for load, crown, and gate readiness checks. |
 | `sources.md` | Provenance and missing-source notes. |
 | `capstone-manifest.json` | Packet metadata and required file list for path checks. |
+| `evolution/` | Stage 0 evolution-pipeline intake (master manifest, design intent, revision register). Gate A not yet run. |
 
 ## First Build Recommendation
 
